@@ -1,0 +1,26 @@
+@import 'override';
+
+body {
+  font-family: Microsoft Yahei;
+}
+
+a {
+  cursor: pointer;
+}
+
+.back-top-btn {
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  height: 54px;
+  width: 54px;
+  background-image: url(/img/arrow_up.png);  
+  background-size: contain;
+  display: none;
+  color: white;
+  opacity: 0.6;
+}
+
+a.back-top-btn:hover {
+  opacity: 1;
+}

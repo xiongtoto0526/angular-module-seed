@@ -1,0 +1,26 @@
+<html>
+   <head>
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  <title>项目管理系统</title>
+	  <%- include('lib/lib-css') -%>
+	  <!-- build:css /css/pm.min.css -->
+	  <link rel="stylesheet" href="/css/main-pm.css">
+	  <!-- endbuild -->
+   </head>
+<body>
+   <p>this is the pm index page</p>
+   <div class="content-wrapper pm-content" style="background-color:#eeeeee" ui-view=""></div>
+
+	  <%- include('lib/lib-js') -%>
+	  <!-- build:js /js/pm.min.js -->
+	  <script src="/js/template-pm.js"></script>
+	  <script src="/js/main-pm.js"></script>
+	  <!-- endbuild -->
+
+	  <script type="text/javascript">
+	    window.SEASUN.initPm();
+	  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+   <head>
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  <title>平台管理系统</title>
+	  <%- include('lib/lib-css') -%>
+	  <!-- build:css /css/sp.min.css -->
+	  <link rel="stylesheet" href="/css/main-sp.css">
+	  <!-- endbuild -->
+   </head>
+<body>
+   <p>this is the sp index page</p>
+   <div class="content-wrapper" style="background-color:#eeeeee" ui-view=""></div>
+
+	  <%- include('lib/lib-js') -%>
+	  <!-- build:js /js/sp.min.js -->
+	  <script src="/js/template-sp.js"></script>
+	  <script src="/js/main-sp.js"></script>
+	  <!-- endbuild -->
+
+	  <script type="text/javascript">
+	    window.SEASUN.initSp();
+	  </script>
+</body>
+</html>

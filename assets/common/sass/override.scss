@@ -1,0 +1,42 @@
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.user-footer {
+  text-align: center;
+}
+
+
+.ui-select-toggle.btn-default {
+  background-color: #FFFFFF;
+}
+
+input.form-control {
+  border-radius: 3px;
+}
+
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #444;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Microsoft Yahei;
+}
+
+.ui-select-bootstrap>.ui-select-choices,.ui-select-bootstrap>.ui-select-no-choice {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+    margin-top: -1px
+}
