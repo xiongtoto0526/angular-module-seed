@@ -13,6 +13,10 @@
    <p>this is the sp index page</p>
    <div class="content-wrapper" style="background-color:#eeeeee" ui-view=""></div>
 
+
+<!-- make sure jquery load before angular,this will enable angular to use jquery instead of angular-jlint  -->
+	  <!-- <script src="/bower_components/jquery/dist/jquery.min.js"></script> -->
+      <!-- <script src="/bower_components/angular/angular.min.js"></script> -->
 	  <%- include('lib/lib-js') -%>
 	  <!-- build:js /js/sp.min.js -->
 	  <script src="/js/template-sp.js"></script>

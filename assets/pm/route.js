@@ -7,7 +7,7 @@ export default angular.module('app.route', [])
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
-      .state('home', { url: '/', templateUrl: '' })
+      // .state('home', { url: '/', templateUrl: '' })  // this will cause a infinit loop from otherwise('/')
 
       .state('log', {
         url: '/log',

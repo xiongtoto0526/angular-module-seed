@@ -31,6 +31,7 @@ var serviceModule = angular
   .factory('UserService', UserService);
 
 window.SEASUN.initSp = function() {
+  debugger;
   angular.module('SEASUN.sp', [
     'SEASUN.common',
     'assets.template.sp',

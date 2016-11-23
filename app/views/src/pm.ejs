@@ -4,6 +4,7 @@
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	  <title>项目管理系统</title>
+	  
 	  <%- include('lib/lib-css') -%>
 	  <!-- build:css /css/pm.min.css -->
 	  <link rel="stylesheet" href="/css/main-pm.css">
@@ -13,11 +14,15 @@
    <p>this is the pm index page</p>
    <div class="content-wrapper pm-content" style="background-color:#eeeeee" ui-view=""></div>
 
+<!-- make sure jquery load before angular,this will enable angular to use jquery instead of angular-jlint  -->
+	  <!-- <script src="/bower_components/jquery/dist/jquery.min.js"></script> -->
+      <!-- <script src="/bower_components/angular/angular.min.js"></script> -->
 	  <%- include('lib/lib-js') -%>
 	  <!-- build:js /js/pm.min.js -->
 	  <script src="/js/template-pm.js"></script>
 	  <script src="/js/main-pm.js"></script>
 	  <!-- endbuild -->
+      <script>console.log('duplicated if jQuery');</script>
 
 	  <script type="text/javascript">
 	    window.SEASUN.initPm();
